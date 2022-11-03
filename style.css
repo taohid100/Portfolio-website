@@ -1,0 +1,634 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Start */
+header{
+  width:100%;
+  height: 79px;
+  position: fixed;
+  top: 0%;
+  border: 2px solid rgba(211, 217, 224,0.1);
+  background-color: #f2f2f2;
+  z-index: 1;
+}
+header div{
+  float: left;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo img{
+  width:100px;
+  height:80px;
+  margin-left: 136px;
+}
+header .nav{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  margin-right: 200px;
+  margin-top:5px;
+}
+header .nav ul{
+  list-style: none; 
+}
+header .nav ul li{
+  float: left;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+header .nav ul li a{
+  text-decoration: none;
+  color: rgb(41,41,41);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+header .nav ul li a:hover{
+  color: #7f97f8;
+}
+.checkbtn{
+  display: none;
+}
+#check{
+  display: none;
+}
+/* Header End */
+
+/* Section one Start */
+.SectionOne{
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(222, 222, 231,0.2);
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text, .image{
+  width: 50%;
+  padding-top: 37px;
+  padding-left: 150px;
+}
+.text h3{
+  font-size: 0.9rem;
+  color: rgb(34,34,34);
+  font-weight: 300;
+  letter-spacing: 1px; 
+}
+.text h1{
+  font-size: 3rem;
+  color: rgb(34,34,34);
+  letter-spacing: 0.5px;
+  margin: 0px 0px;
+}
+.image img{
+  width: 300px;
+  height: 400px;
+}
+.text p{
+  color: #777777;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.text input{
+  padding: 9px 14px;
+  background-color: #8490ff;
+  outline: none;
+  border: 1px solid #8490ff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.text input:hover{
+  color: #f2f2f2;
+  background-color: black;
+  cursor: pointer;
+  box-shadow: 5px 10px 30px rgba(132,143,247,0.8);
+  transition: all 0.4s ease-in-out 0.2s;
+}
+/* Section one End */
+
+/* Section Two Start */
+
+.SectionTwo{
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(224, 219, 212, 0.3);
+  padding-top: 40px;
+}
+.SectionTwo div{
+  width: 40%;
+  margin: 0% auto;
+} 
+.image2 img{
+  width: 80%;
+  height: auto;
+  padding-left: 150px;
+}
+.text2{
+  padding-bottom: 37px;
+  padding-left: 133px;
+}
+.text2 h3{
+  font-weight: 400;
+  color: #222;
+  font-size: 1.2rem;
+}
+.text2 h1{
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: #222;
+}
+.text2 p{
+  font-size: 1rem;
+  color: rgba(23, 22, 22, 0.6);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  padding-top: 20px;
+}
+.text2 input{
+  font-size: 0.9rem;
+  color: white;
+  padding: 10px 20px;
+  background-color: rgb(129,146,247);
+  outline: none;
+  border: none;
+}
+.text2 input:hover{
+  background-color: rgb(0, 0, 0,0.8);
+  color: #f2f2f2;
+  cursor: pointer;
+  box-shadow: 5px 10px 30px rgba(132,143,247,0.9);
+  transition: all 0.4s ease-in-out 0.2s;
+}
+/* Section Two End */
+
+/* Section Three Start */
+.SectionThree{
+  margin: 0%;
+  padding-top: 8%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: rgb(226, 221, 221, 0.5);
+}
+.heading h1{
+  font-size: 2rem;
+  color: rgba(34, 34, 34, 0.8);
+  line-height: 10px;
+}
+.heading p{
+  width: 670px;
+  color: rgba(34, 34, 34, 0.4);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0% auto;
+  font-size: 1.2rem;
+}
+.service{
+  width: 80%;
+  padding-top: 70px;
+  margin: 0% auto;
+}
+.service2{
+  padding-top: 50px;
+}
+.service1, .service2{
+  width: 100%;
+  overflow: hidden;
+}
+.service1 div, .service2 div{
+  width: 32%;
+  float: left;
+  padding: 7px; 
+}
+.service div i{
+ font-size: 40px;
+ color: rgba(34, 34, 34, 0.9);
+}
+.service div h2{
+  font-size: 2rem;
+  color: rgba(34, 34, 34, 0.9);
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+.service div p{
+  font-size: 1rem;
+  color: rgba(119, 119, 119, 0.6);
+  font-family: 'Poor Story', cursive;
+}
+.service1 :hover{
+  color: black;
+  background: rgba(245, 245, 220, 0.4);
+}
+.service2 :hover{
+  color: black;
+  background: rgba(245, 245, 220, 0.4);
+}
+/* Section Three End */
+
+/* Section Four Start */
+.SectionFour{
+  width: 100%;
+  height: auto;
+  background-color: rgb(224, 219, 219);
+  margin: 0% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.SectionFour div{
+  padding: 80px;
+}
+.SectionFour h1{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 0.1px;
+  color: rgba(34, 34, 34, 0.9);
+}
+.SectionFour p{
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(34, 34, 34, 0.8);
+}
+/* Section Four End */
+
+/* Section Five Portfolio Start */
+.SectionFive{
+  width: 100%;
+  height: auto;
+  background-color: rgba(215, 206, 206, 0.4);
+  margin: 0% auto;
+  text-align: center;
+  padding-top: 80px;
+}
+.text3 h1{
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(34, 34, 34, 0.9);
+  line-height: 15px;
+} 
+.text3 p{
+  font-size: 1rem;
+  font-family:'Courier New', Courier, monospace;
+  color: rgba(119, 119, 119, 0.8);
+}
+.image3 .part1{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 90px;
+  
+}
+.image3 .part2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 60px; 
+}
+.image3 h1{
+  font-size: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(34, 34, 34, 0.8);
+  text-align: center;
+  line-height: 0.5px;
+}
+.image3 p{
+  font-size: 0.9rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgba(119, 119, 119, 0.8);
+}
+.image3 figure:hover{
+  width: auto;
+  height: auto; 
+  overflow: hidden;
+  border-radius: 20px;
+  opacity: 0.7;
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.05);
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: 4px 5px rgba(16, 16, 16, 0.5);
+}
+
+/* Section Five Portfolio End */
+
+/* Section Six Pricing Start */
+.SectionSix{
+  width: 100%;
+  height: auto;
+  background-color: rgba(215, 206, 206, 0.6);
+  margin: 0% auto;
+  
+}
+.SectionSix .text4{
+  text-align: center;
+  padding: 60px;
+}
+.SectionSix .text4 h1{
+  font-size: 2rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.SectionSix .text4 p{
+  color: rgba(119, 119, 119, 0.8);
+  font-family: 'Times New Roman', Times, serif;
+}
+.SectionSix .ticket{
+  width: 75%;
+  height: auto;
+  background-color: rgba(119, 119, 119, 0.1);
+  display: flex;
+  justify-content: space-around;
+  margin: 0% auto;
+}
+.SectionSix .ticket1{
+  width: 300px;
+  height: 550px;
+  background-color: rgb(249, 249, 255);
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.SectionSix .ticket1 h1{
+  font-size: 2.5rem;
+  padding-top: 10px;
+}
+.SectionSix .ticket1 h2{
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.SectionSix .ticket1 p{
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.SectionSix .ticket1 h3{
+  font-size: 2rem;
+}
+.SectionSix .ticket1 input{
+  outline: 0%;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  border: 3px solid rgb(203, 174, 174);
+  padding: 6px 50px;
+  background-color: rgba(131, 46, 46, 0.5);
+  cursor: pointer;
+}
+.SectionSix .ticket1:hover{
+  background-color: #8293ff;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05);
+  border: 1px solid rgba(130, 147, 255, 0.5);
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.5);
+}
+.SectionSix .ticket1:hover input{
+  background-color: white;
+  color: black;
+  transform: scale(1.2);
+}
+/* Section Six Pricing End */
+
+/*Footer Start*/
+footer{
+  width: 100%;
+  height: auto;
+  background-color: rgb(4, 9, 30);
+  color: rgba(255, 255, 255, 0.9);
+}
+.foot{
+  width: 80%;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0% auto;
+  padding-top: 100px;
+}
+.foot .footer1 h3{
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.foot .footer1 p{
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.foot .footer1 input{
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  padding: 6px 10px;
+}
+.foot .footer1 button{
+  font-size: 1rem;
+  padding: 6px 10px;
+  color: white;
+  background-color: #8293ff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.foot .footer1 i{
+  font-size: 1.5rem;
+  padding: 2px 6px;
+}
+.foot .footer1 i:hover{
+  color: #8293ff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+/*Footer End*/
+
+/*Media query Start */
+@media (max-width: 768px){
+
+  header{
+    width: 100%;
+    height: auto;
+  }
+  header .logo{
+    margin-left: -80px;
+    height: 80px; 
+  }
+  .checkbtn{
+    display: block;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -170px;
+  }
+  header .nav ul{
+    position: fixed;
+    width: 100%;
+    height: 700px;
+    background-color: #f9f9ff;
+    top: 70px;
+    left: -200%;
+    transition: all 0.3s;
+  }
+  header .nav ul li{
+    line-height: 30px;
+    clear: both;
+    margin-top: 15px;
+  }
+  #check:checked ~ ul{
+    left: 0% ;
+  }
+  header .nav ul li a{
+    font-size: 1rem;
+    text-align: center;
+  }
+  .SectionOne{
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    position: relative;
+  }
+  .text{
+    position: relative;
+    margin: 50px -7px; 
+  }
+  .text h1, p{
+    margin: 20px auto;
+  }
+  .text h3{
+    font-size: 0.7rem;
+  }
+  .text h1{
+    font-size: 2rem;
+  }
+  .image img{
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    margin-left: -30px;
+  }
+  .SectionTwo{
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    position: relative;
+  }
+  .image2 img{
+    position: relative;
+    right: 220px;
+    width: 376px;
+    margin-bottom: 20px;
+  }
+  .text2{
+    position: relative;
+    width: 100%;
+    right: 50px;
+  }
+  .text2 h1, p{
+    margin: 0px auto;
+  }
+  .text2 h3{
+    font-size: 0.9rem;
+  }
+  .text2 h1{
+    font-size: 1.5rem;
+  }
+  .text2 input{
+    margin-top: 20px;
+  }
+  .SectionThree{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    text-align: center;
+  }
+  .heading h1{
+    font-size: 1.5rem;
+  }
+  .heading p{
+    font-size: 1rem;
+    width: 100% ;
+  }
+  .service1 div, .service2 div{
+    clear: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+  }
+  .SectionFour{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+  }
+  .SectionFour div{
+    clear: left;
+    padding: 20px;
+  }
+  .SectionFour div h1{
+    font-size: 2rem;
+  }
+  .SectionFour div p{
+  font-size: 0.9rem;
+  }
+  .SectionFive{
+    padding-bottom: 20px;
+  }
+  .SectionSix .text4 h1{
+    font-size: 1.5rem;
+  }
+  .SectionSix .text4 p{
+    font-size: 1rem;
+  }
+  .SectionSix .ticket{
+    width: 100%;
+    clear: left;
+    display: block;
+    position: relative;
+    padding:20px 100px;
+  }
+  .SectionSix .ticket1{
+    margin-top: 50px;
+  }
+  footer .foot{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    clear: left;
+    text-align: center;
+    padding: 30px 0px;
+  }
+  .foot .footer1 h3{
+   font-size: 1.2rem; 
+  }
+  .foot .footer1 p{
+    font-size: 0.9rem;
+  }
+  .foot .footer1 input{
+    margin-top: 10px;
+  }
+  .foot .footer1 i{
+    margin-top: 5px;
+  }
+}
+/*Media query End */
