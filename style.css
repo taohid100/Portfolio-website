@@ -292,8 +292,7 @@ header .nav ul li a:hover{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 90px;
-  
+  padding-top: 90px; 
 }
 .image3 .part2{
   width: 100%;
@@ -315,7 +314,7 @@ header .nav ul li a:hover{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgba(119, 119, 119, 0.8);
 }
-.image3 figure:hover{
+.image3 figure img:hover{
   width: auto;
   height: auto; 
   overflow: hidden;
